@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resolve – Consulting Platform</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="resolve.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <span class="logo-main">RESOLVE</span><span class="logo-dot">.</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#explore">Explore</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Welcome to <span class="gradient-text">RESOLVE.</span></h1>
+          <p class="hero-subtitle">
+            Where young professionals collaborate with businesses to create real impact.
+            Discover talent that's driven, skilled, and ready to support your growth.
+          </p>
+
+          <form id="searchForm" class="search-bar">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search for Services"
+              aria-label="Search for services"
+            />
+            <button type="submit" class="search-btn">
+              🔍
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>
+            A curated selection of consulting services designed to support every stage of your business.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <!-- Card 1 -->
+          <article class="service-card">
+            <div class="card-image placeholder-image"></div>
+            <div class="card-body">
+              <h3>Business Strategy</h3>
+              <p>Plan and prioritize your next big moves with young consultants.</p>
+              <button class="btn btn-card">TEXT</button>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <div class="card-image placeholder-image"></div>
+            <div class="card-body">
+              <h3>Marketing & Branding</h3>
+              <p>Build a brand that resonates with your ideal customer.</p>
+              <button class="btn btn-card">TEXT</button>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <div class="card-image placeholder-image"></div>
+            <div class="card-body">
+              <h3>Financial Planning</h3>
+              <p>Make smarter decisions with clear financial insights.</p>
+              <button class="btn btn-card">TEXT</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section id="explore" class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>What They Say About Us</h2>
+        </div>
+
+        <div class="testimonial-wrapper">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              This consulting is very capable for us UMKM who needs
+              support to grow and professionalize our business.
+            </p>
+            <div class="testimonial-user">
+              <div class="avatar-circle"></div>
+              <span>Ambaditya Sulaiman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="about" class="section section-cta">
+      <div class="container cta-inner">
+        <h2>Ready to Have Succesful Path on Consulting Career?</h2>
+        <p>We hope that u can surface on our website.</p>
+        <button class="btn btn-primary btn-large" id="ctaButton">
+          Get Started
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2025 Resolve. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="resolve.js"></script>
+</body>
+</html>
